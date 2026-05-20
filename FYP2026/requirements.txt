@@ -1,0 +1,30 @@
+# Ba Duan Jin Wellness Platform — Python dependencies
+
+# Backend
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+sqlalchemy==2.0.30
+pydantic[email]==2.7.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Environment variables
+python-dotenv==1.0.1
+
+# File upload support
+python-multipart==0.0.9
+
+# HTTP client (LLM service)
+requests==2.32.3
+
+# Analytics
+pandas==2.2.2
+
+# Pose estimation (pose_module)
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy==1.26.4
+
+# Optional — CNN model (Keras backend)
+# keras==3.3.3
+# tensorflow==2.16.1

@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+source/
+
+# Generated model/data outputs
+models/
+outputs/
+data/processed/
+data/safety/
+data/frames/
+data/keypoints/
+data/raw_video/
+*.index
+
+# Database (allow baduanjin.db)
+*.db
+!baduanjin.db
+
+# Environment variables
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Claude Code memory
+.claude/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
